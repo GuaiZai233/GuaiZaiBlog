@@ -1,3 +1,9 @@
+---
+title: self-introduction
+date: 2025-08-20 00:00:00
+tags:
+---
+
 诶嘿，欢迎你点进我的博客！
 
 > 本博客已由WordPress + Argon Theme的方案迁移到Hexo + Cloudflare Pages + Github Repo的方案！
