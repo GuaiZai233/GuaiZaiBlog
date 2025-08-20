@@ -10,25 +10,33 @@
   padding: 0 !important;
 }
 
-/* 让徽标一行显示，不被自动换行 */
+/* 让徽标一行显示，不被自动换行 
 .markdown-body p img[src*="img.shields.io"] {
   display: inline-block;
   white-space: nowrap;
   vertical-align: middle;
-  margin-right: 0px; /* 徽标之间留点间隔 */
+  margin-right: 0px;
 }
+*/
 
-/* 保证 p 标签里的徽标不换行 */
+/* 保证 p 标签里的徽标不换行 
 .markdown-body p {
   white-space: nowrap;
 }
+*/
 
-/* 显示自定义 CSS 已加载 */
+
+/* 显示自定义 CSS 已加载 
+
 html::before {
   content: "CUSTOM CSS LOADED";
   position: fixed; right: 8px; bottom: 8px; padding: 2px 6px;
   background: #000; color: #fff; font-size: 11px; z-index: 99999;
 }
+*/
+
+
+
 
 /* 让 shields 徽章像文字一样内联显示 */
 .markdown-body img[src*="img.shields.io"] {
