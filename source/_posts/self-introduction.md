@@ -1,7 +1,8 @@
 ---
-title: self-introduction
+title: 【置顶】博客开张及自我介绍
 date: 2025-08-20 00:00:00
 tags:
+sticky: 9999
 ---
 
 诶嘿，欢迎你点进我的博客！
