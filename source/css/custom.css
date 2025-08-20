@@ -1,0 +1,86 @@
+/* 让 shields.io 徽章像文字一样显示 */
+.markdown-body img[src*="img.shields.io"] {
+  display: inline-block;
+  height: 20px;
+  margin: 0 .25em;
+  vertical-align: text-bottom;
+  border: none !important;
+  box-shadow: none !important;
+  background: none !important;
+  padding: 0 !important;
+}
+
+/* 让徽标一行显示，不被自动换行 */
+.markdown-body p img[src*="img.shields.io"] {
+  display: inline-block;
+  white-space: nowrap;
+  vertical-align: middle;
+  margin-right: 0px; /* 徽标之间留点间隔 */
+}
+
+/* 保证 p 标签里的徽标不换行 */
+.markdown-body p {
+  white-space: nowrap;
+}
+
+/* 显示自定义 CSS 已加载 */
+html::before {
+  content: "CUSTOM CSS LOADED";
+  position: fixed; right: 8px; bottom: 8px; padding: 2px 6px;
+  background: #000; color: #fff; font-size: 11px; z-index: 99999;
+}
+
+/* 让 shields 徽章像文字一样内联显示 */
+.markdown-body img[src*="img.shields.io"] {
+  display: inline-block !important;
+  height: 20px;
+  margin: 0 .4em 0 0;
+  vertical-align: text-bottom;
+  border: 0 !important;
+  box-shadow: none !important;
+  background: none !important;
+  padding: 0 !important;
+}
+
+/* 有些主题会把 <a> 或外层容器设为 block，强制改回内联 */
+.markdown-body a[href] img[src*="img.shields.io"] {
+  display: inline-block !important;
+}
+
+/* 让包含徽章的段落成为单行横排（支持 :has 的浏览器） */
+@supports selector(p:has(img)) {
+  .markdown-body p:has(> a > img[src*="img.shields.io"]),
+  .markdown-body p:has(> img[src*="img.shields.io"]) {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;        /* 一行放不下时，出现横向滚动，不换行 */
+    white-space: nowrap;
+  }
+}
+
+/* 解决徽标之间有间距 */
+.post-body img[alt*="badge"],
+.article-entry img[alt*="badge"],
+.markdown-body img[alt*="badge"] {
+  display: inline-block;
+  margin: 0;           /* 去掉间距 */
+  vertical-align: middle;
+}
+
+/* 防止长徽标被裁切 */
+.post-body img[src*="shields.io"],
+.article-entry img[src*="shields.io"],
+.markdown-body img[src*="shields.io"] {
+  max-width: none !important;  /* 允许徽标使用原始宽度 */
+  height: auto !important;     /* 高度自适应 */
+}
+
+.badge-text {
+  white-space: normal;      /* 允许自动换行 */
+  word-break: break-word;   /* 长单词/长英文强制断开 */
+  overflow-wrap: anywhere;  /* 更激进的自动换行，保证不溢出 */
+  max-width: 100%;          /* 不超过父容器 */
+  line-height: 1.2;         /* 行距适当小一点，避免撑开 */
+}

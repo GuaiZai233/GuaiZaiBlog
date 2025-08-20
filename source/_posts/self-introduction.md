@@ -16,8 +16,8 @@ tags:
 
 偶像是极客湾，梦想拥有自己的工作室，可以一直坚持热爱的事情。
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=ffffff)
-![Java](https://img.shields.io/badge/Java-d35d46?style=flat-square&logoColor=ffffff)
+![](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=ffffff)
+![](https://img.shields.io/badge/Java-d35d46?style=flat-square&logoColor=ffffff)
 
 # Public Keys
 > Fingerprint = F597 0AD1 A37F A1AE B5C2  BCF9 EFA4 5847 A87B F6CE
@@ -60,11 +60,11 @@ Apex Legends | 85% | -
 ————刘亮程《一个人的村庄》
 ```
 
-![《活着》-余华](https://img.shields.io/badge/%e3%80%8a%e6%b4%bb%e7%9d%80%e3%80%8b-%e4%bd%99%e5%8d%8e-006cbf?style=flat-square)
-![《在细雨中呼喊》-余华](https://img.shields.io/badge/%e3%80%8a%e5%9c%a8%e7%bb%86%e9%9b%a8%e4%b8%ad%e5%91%bc%e5%96%8a%e3%80%8b-%e4%bd%99%e5%8d%8e-006cbf?style=flat-square)
-![《长安十二时辰》-马伯庸](https://img.shields.io/badge/%e3%80%8a%e9%95%bf%e5%ae%89%e5%8d%81%e4%ba%8c%e6%97%b6%e8%be%b0%e3%80%8b-%e9%a9%ac%e4%bc%af%e5%ba%b8-006cbf?style=flat-square)
+![](https://img.shields.io/badge/%e3%80%8a%e6%b4%bb%e7%9d%80%e3%80%8b-%e4%bd%99%e5%8d%8e-006cbf?style=flat-square)
+![](https://img.shields.io/badge/%e3%80%8a%e5%9c%a8%e7%bb%86%e9%9b%a8%e4%b8%ad%e5%91%bc%e5%96%8a%e3%80%8b-%e4%bd%99%e5%8d%8e-006cbf?style=flat-square)
+![](https://img.shields.io/badge/%e3%80%8a%e9%95%bf%e5%ae%89%e5%8d%81%e4%ba%8c%e6%97%b6%e8%be%b0%e3%80%8b-%e9%a9%ac%e4%bc%af%e5%ba%b8-006cbf?style=flat-square)
 
-![《雨霖铃》-[宋]刘永](https://img.shields.io/badge/%e3%80%8a%e9%9b%a8%e9%9c%96%e9%93%83%e3%80%8b-%5b%e5%ae%8b%5d%e5%88%98%e6%b0%b8-0c9896?style=flat-square)
+![](https://img.shields.io/badge/%e3%80%8a%e9%9b%a8%e9%9c%96%e9%93%83%e3%80%8b-%5b%e5%ae%8b%5d%e5%88%98%e6%b0%b8-0c9896?style=flat-square)
 
 # 音乐
 ```
@@ -78,28 +78,33 @@ Apex Legends | 85% | -
 # 设备
 ### 使用中
 移动设备 / Wearable：
-![OnePlus 13](https://img.shields.io/badge/OnePlus_13-f5010c?style=flat-square&logo=oneplus&logoColor=ffffff)
-![iPhone SE 2](https://img.shields.io/badge/iPhone_SE_2-000000?style=flat-square&logo=apple&logoColor=ffffff)
-![iPad Air 4](https://img.shields.io/badge/iPad_Air_4-000000?style=flat-square&logo=apple&logoColor=ffffff)
-![Apple Watch S5](https://img.shields.io/badge/Apple_Watch_S5-000000?style=flat-square&logo=apple&logoColor=ffffff)
+![](https://img.shields.io/badge/OnePlus_13-f5010c?style=flat-square&logo=oneplus&logoColor=ffffff)
+![](https://img.shields.io/badge/iPhone_SE_2-000000?style=flat-square&logo=apple&logoColor=ffffff)
+![](https://img.shields.io/badge/iPad_Air_4-000000?style=flat-square&logo=apple&logoColor=ffffff)
+![](https://img.shields.io/badge/Apple_Watch_S5-000000?style=flat-square&logo=apple&logoColor=ffffff)
+
+/
 
 桌面端：
-![AMD Ryzen 9700X](https://img.shields.io/badge/AMD_Ryzen_9700X-d3491e?style=flat-square&logo=amd&logoColor=ffffff)
-![NVIDIA GeForce GTX 1050 Ti](https://img.shields.io/badge/NVIDIA_GeForce_GTX_1050_Ti-65a51c?style=flat-square&logo=nvidia&logoColor=ffffff)
+![](https://img.shields.io/badge/AMD_Ryzen_9700X-d3491e?style=flat-square&logo=amd&logoColor=ffffff)
+![](https://img.shields.io/badge/NVIDIA_GeForce_GTX_1050_Ti-65a51c?style=flat-square&logo=nvidia&logoColor=ffffff)
 
 ### 曾经有过
 移动设备 / Wearable：
-![Redmi K60](https://img.shields.io/badge/Redmi_K60-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
-![Redmi Note 13](https://img.shields.io/badge/Redmi_Note_13-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
-![iPhone 8 Plus](https://img.shields.io/badge/iPhone_8_Plus-000000?style=flat-square&logo=apple&logoColor=ffffff)
-![Redmi Note 13](https://img.shields.io/badge/%e5%b0%8f%e7%b1%b3%e6%89%8b%e7%8e%af_8-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
+![](https://img.shields.io/badge/Redmi_K60-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
+![](https://img.shields.io/badge/Redmi_Note_13-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
+![](https://img.shields.io/badge/iPhone_8_Plus-000000?style=flat-square&logo=apple&logoColor=ffffff)
+![](https://img.shields.io/badge/%e5%b0%8f%e7%b1%b3%e6%89%8b%e7%8e%af_8-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
+
+/
 
 桌面端：
-![Intel Core i5-7500](https://img.shields.io/badge/Intel_Core_i5--7500-3170b3?style=flat-square&logo=intel&logoColor=ffffff)
+![](https://img.shields.io/badge/Intel_Core_i5--7500-3170b3?style=flat-square&logo=intel&logoColor=ffffff)
 
 # 碎碎念
 
-开张博客是我从高一开始一直在干的事，也要感谢互联网上的朋友们为我提供帮助！我计划长期、稳定、高质量地更新它。内容包括但不限于：
+开张博客是我从高一开始一直在干的事，也要感谢互联网上的朋友们为我提供帮助！我计划长期、稳定、高质量地更新它。
+内容包括但不限于：
 - 日记随笔
 - 生活杂谈
 - 旅游人文
