@@ -101,3 +101,10 @@ page.banner_mask_alpha = page.banner_mask_alpha || theme.post.banner_mask_alpha
     </div>
   </div>
 <% } %>
+
+<script src="<%- url_for('js/pangu.min.js') %>"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  if (window.pangu) pangu.spacingPage();
+});
+</script>
