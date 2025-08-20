@@ -20,7 +20,7 @@ tags:
 ![](https://img.shields.io/badge/Java-d35d46?style=flat-square&logoColor=ffffff)
 
 # Public Keys
-> Fingerprint = F597 0AD1 A37F A1AE B5C2  BCF9 EFA4 5847 A87B F6CE
+Fingerprint = F597 0AD1 A37F A1AE B5C2  BCF9 EFA4 5847 A87B F6CE
 
 # 兴趣爱好
 
@@ -43,7 +43,7 @@ Minecraft | 100% | 自己有一个服务器！
 Apex Legends | 85% | -
 ~~舞萌DX~~ | ~~80%~~ |~~6000分菜狗一个（截至2025.8），假期每3天出勤一次 太好玩啦~~
 皇室战争 / 原神 | 70% | -
-王者荣耀 | 40% | -
+王者荣耀 | 40% | ~~神人匹配机制，输一把直接退~~
 绝区零 / 黎明杀机 / PUBG | 20% | -
 
 # 喜欢的up主
