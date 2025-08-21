@@ -3,6 +3,7 @@ title: 【置顶】博客开张及自我介绍
 date: 2025-08-20 00:00:00
 tags:
 sticky: 9999
+description: 诶嘿，欢迎你点进我的博客！我是怪哉GuaiZai，来自江苏，大学生，网络工程在读。偶像是极客湾，梦想拥有自己的工作室，可以一直坚持热爱的事情。
 ---
 
 诶嘿，欢迎你点进我的博客！
@@ -19,6 +20,8 @@ sticky: 9999
 
 ![](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=ffffff)
 ![](https://img.shields.io/badge/Java-d35d46?style=flat-square&logoColor=ffffff)
+
+
 
 # Public Keys
 Fingerprint = F597 0AD1 A37F A1AE B5C2  BCF9 EFA4 5847 A87B F6CE
