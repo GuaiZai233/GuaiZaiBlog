@@ -1046,10 +1046,16 @@ links:
       avatar: "https://chiloven945.github.io/avartar_hu5753177046303257954.jpg"
     }
     - {
-      title: "Fluid Repo",
-      intro: "主题 GitHub 仓库",
-      link: "https://github.com/fluid-dev/hexo-theme-fluid",
-      avatar: "/img/favicon.png"
+      title: "氧化小屋",
+      intro: "现在，是氧化某人时间！",
+      link: "https://blog.yang1120.com/",
+      avatar: "ttps://blog.yang1120.com/wp-content/uploads/2022/11/luoxiaohei.jpg"
+    }
+    - {
+      title: "锦木祈杰のblog",
+      intro: "因你而在的故事",
+      link: "https://qijieya.cn/",
+      avatar: "https://oss.qijieya.cn/1/aili2.gif"
     }
 
   # 当成员头像加载失败时，替换为指定图片
