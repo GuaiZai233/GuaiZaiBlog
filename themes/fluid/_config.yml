@@ -128,11 +128,11 @@ fun_features:
 # 主题暗色模式，开启后菜单中会出现切换按钮，用户浏览器会存储切换选项，并且会遵循 prefers-color-scheme 自动切换
 # Theme dark mode. If enable, a switch button will appear on the menu, each of the visitor's browser will store his switch option
 dark_mode:
-  enable: true
+  enable: false
   # 默认的选项（当用户手动切换后则不再按照默认模式），选择 `auto` 会优先遵循 prefers-color-scheme，其次按用户本地时间 18 点到次日 6 点之间进入暗色模式
   # Default option (when the visitor switches manually, the default mode is no longer followed), choosing `auto` will give priority to prefers-color-scheme, and then enter the dark mode from 18:00 to 6:00 in the visitor's local time
   # Options: auto | light | dark
-  default: auto
+  default: light
 
 # 主题颜色配置，其他不生效的地方请使用自定义 css 解决，配色可以在下方链接中获得启发
 # Theme color, please use custom CSS to solve other colors, color schema can be inspired by the links below
@@ -372,9 +372,10 @@ navbar:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
     #- { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "GitHub", link: "https://github.com/GuaiZai233", icon: "iconfont icon-github-fill" }
-    #- { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+    - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
+    - { key: "devices", link: "/devices_wall/", icon: "iconfont icon-link-fill" }
     - { key: "🚇开往", link: "https://www.baidu.com", icon: "" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件

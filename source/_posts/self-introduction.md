@@ -1,7 +1,7 @@
 ---
 title: 【置顶】博客开张及自我介绍
 date: 2025-08-20 00:00:00
-tags:
+tags: 杂记
 sticky: 9999
 description: 诶嘿，欢迎你点进我的博客！我是怪哉GuaiZai，来自江苏，大学生，网络工程在读。偶像是极客湾，梦想拥有自己的工作室，可以一直坚持热爱的事情。
 ---
@@ -93,6 +93,7 @@ Apex Legends | 85% | -
 桌面端：
 ![](https://img.shields.io/badge/AMD_Ryzen_9700X-d3491e?style=flat-square&logo=amd&logoColor=ffffff)
 ![](https://img.shields.io/badge/NVIDIA_GeForce_GTX_1050_Ti-65a51c?style=flat-square&logo=nvidia&logoColor=ffffff)
+![](https://img.shields.io/badge/Microsoft_Surface_Pro_6-00a1f1?style=flat-square&logo=microsoft&logoColor=ffffff)
 
 ### 曾经有过
 移动设备 / Wearable：
