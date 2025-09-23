@@ -43,12 +43,10 @@ CityTour / 旅游 | 80% | -
 项目 | Percentage | 备注
 -------- | ----- | ------
 Minecraft | 100% | 自己有一个服务器！
+舞萌DX（街机） | 100% |awmc 无需多言
 和平精英 | 90% | -
-Apex Legends | 85% | -
-~~舞萌DX~~ | ~~80%~~ |~~6000分菜狗一个（截至2025.8），假期每3天出勤一次 太好玩啦~~
+Apex Legends | 80% | -
 皇室战争 / 原神 | 70% | -
-王者荣耀 | 40% | ~~神人匹配机制，输一把直接退~~
-绝区零 / 黎明杀机 / PUBG | 20% | -
 
 # 喜欢的up主
 项目 | Percentage | 备注
@@ -82,28 +80,14 @@ Apex Legends | 85% | -
 [![《All Falls Down》-Alan Walker / Noah Cyrus / Digital Farm Animals / Juliander](https://img.shields.io/badge/%e3%80%8aAll_Falls_Down%e3%80%8b-Alan_Walker_%e7%ad%894%e4%bd%8d%e6%ad%8c%e6%89%8b-ba3ce8?style=flat-square)](https://music.163.com/#/song?id=1311427648)
 
 # 设备
-### 使用中
-移动设备 / Wearable：
+可以瞅瞅我的[设备墙](https://gz.guaitech.org/devices_wall)。
+
 ![](https://img.shields.io/badge/OnePlus_13-f5010c?style=flat-square&logo=oneplus&logoColor=ffffff)
-![](https://img.shields.io/badge/OnePlus_10_Pro-f5010c?style=flat-square&logo=oneplus&logoColor=ffffff)
-![](https://img.shields.io/badge/iPhone_SE_2-000000?style=flat-square&logo=apple&logoColor=ffffff)
 ![](https://img.shields.io/badge/iPad_Air_4-000000?style=flat-square&logo=apple&logoColor=ffffff)
-![](https://img.shields.io/badge/Apple_Watch_S5-000000?style=flat-square&logo=apple&logoColor=ffffff)
  
-桌面端：
 ![](https://img.shields.io/badge/AMD_Ryzen_9700X-d3491e?style=flat-square&logo=amd&logoColor=ffffff)
 ![](https://img.shields.io/badge/NVIDIA_GeForce_GTX_1050_Ti-65a51c?style=flat-square&logo=nvidia&logoColor=ffffff)
 ![](https://img.shields.io/badge/Microsoft_Surface_Pro_6-00a1f1?style=flat-square&logo=microsoft&logoColor=ffffff)
-
-### 曾经有过
-移动设备 / Wearable：
-![](https://img.shields.io/badge/Redmi_K60-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
-![](https://img.shields.io/badge/Redmi_Note_13-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
-![](https://img.shields.io/badge/iPhone_8_Plus-000000?style=flat-square&logo=apple&logoColor=ffffff)
-![](https://img.shields.io/badge/%e5%b0%8f%e7%b1%b3%e6%89%8b%e7%8e%af_8-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
- 
-桌面端：
-![](https://img.shields.io/badge/Intel_Core_i5--7500-3170b3?style=flat-square&logo=intel&logoColor=ffffff)
 
 # 碎碎念
 
