@@ -5,9 +5,7 @@ date: 2025-08-21 00:00:00
 ## 正在使用
 移动设备 / Wearable：
 ![](https://img.shields.io/badge/OnePlus_13-f5010c?style=flat-square&logo=oneplus&logoColor=ffffff)
-![](https://img.shields.io/badge/iPhone_SE_2-000000?style=flat-square&logo=apple&logoColor=ffffff)
-![](https://img.shields.io/badge/iPad_Air_4-000000?style=flat-square&logo=apple&logoColor=ffffff)
-![](https://img.shields.io/badge/Apple_Watch_S5-000000?style=flat-square&logo=apple&logoColor=ffffff)
+![](https://img.shields.io/badge/Redmi_K_Pad-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
  
 桌面端：
 ![](https://img.shields.io/badge/AMD_Ryzen_9700X-d3491e?style=flat-square&logo=amd&logoColor=ffffff)
@@ -17,6 +15,9 @@ date: 2025-08-21 00:00:00
 ## 历史
 
 移动设备 / Wearable：
+![](https://img.shields.io/badge/iPhone_SE_2-000000?style=flat-square&logo=apple&logoColor=ffffff)
+![](https://img.shields.io/badge/iPad_Air_4-000000?style=flat-square&logo=apple&logoColor=ffffff)
+![](https://img.shields.io/badge/Apple_Watch_S5-000000?style=flat-square&logo=apple&logoColor=ffffff)
 ![](https://img.shields.io/badge/OnePlus_10_Pro-f5010c?style=flat-square&logo=oneplus&logoColor=ffffff)
 ![](https://img.shields.io/badge/Redmi_K60-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
 ![](https://img.shields.io/badge/Redmi_Note_13-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
