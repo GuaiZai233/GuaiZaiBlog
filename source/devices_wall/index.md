@@ -6,11 +6,12 @@ date: 2025-08-21 00:00:00
 移动设备 / Wearable：
 ![](https://img.shields.io/badge/OnePlus_13-f5010c?style=flat-square&logo=oneplus&logoColor=ffffff)
 ![](https://img.shields.io/badge/Redmi_K_Pad-fd4900?style=flat-square&logo=xiaomi&logoColor=ffffff)
+![](https://img.shields.io/badge/iPhone_12_mini-000000?style=flat-square&logo=apple&logoColor=ffffff)
  
 桌面端：
 ![](https://img.shields.io/badge/AMD_Ryzen_9700X-d3491e?style=flat-square&logo=amd&logoColor=ffffff)
 ![](https://img.shields.io/badge/NVIDIA_GeForce_GTX_1050_Ti-65a51c?style=flat-square&logo=nvidia&logoColor=ffffff)
-![](https://img.shields.io/badge/Microsoft_Surface_Pro_6-00a1f1?style=flat-square&logo=microsoft&logoColor=ffffff)
+![](https://img.shields.io/badge/Apple_Macbook_Air_(M1,2020)-000000?style=flat-square&logo=apple&logoColor=ffffff)
 
 ## 历史
 
