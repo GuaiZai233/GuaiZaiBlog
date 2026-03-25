@@ -450,7 +450,7 @@ footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '
-    ©GuaiZai 2025</span>. All rights reserved.&nbsp;|&nbsp;
+    ©GuaiZai 2026</span>. All rights reserved.&nbsp;|&nbsp;
     <a href="https://creativecommons.org/licenses/by/4.0/ " target="_blank" rel="nofollow noopener"><span>CC-BY-SA 4.0 licensed</span></a>
     &nbsp;|&nbsp;
     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
@@ -1050,13 +1050,19 @@ links:
       title: "氧化小屋",
       intro: "现在，是氧化某人时间！",
       link: "https://blog.yang1120.com/",
-      avatar: "https://blog.yang1120.com/wp-content/uploads/2022/11/luoxiaohei.jpg"
+      avatar: "https://github.com/user-attachments/assets/d5c33e58-054c-4321-abfc-359bf56e7837"
     }
     - {
       title: "锦木祈杰のblog",
       intro: "因你而在的故事",
       link: "https://qijieya.cn/",
       avatar: "https://oss.qijieya.cn/1/aili2.gif"
+    }
+    - {
+      title: "zhazha120",
+      intro: "zhazha120的博客",
+      link: "https://zhazha120.cn/",
+      avatar: "https://github.com/user-attachments/assets/b2a3c51d-7797-4d3e-944b-682a4536f776"
     }
 
   # 当成员头像加载失败时，替换为指定图片
