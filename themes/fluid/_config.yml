@@ -1037,8 +1037,8 @@ links:
     - {
       title: "Michael Mason's Blog",
       intro: "An Ode to a Gopher's Self-Discipline in Devotion",
-      link: "https://byte.beer",
-      avatar: "https://byte.beer/myself.webp"
+      link: "https://www.eth0.bond/",
+      avatar: "https://go.dev/images/favicon-gopher-plain.png"
     }
     - {
       title: "Chiloven's Blog",
