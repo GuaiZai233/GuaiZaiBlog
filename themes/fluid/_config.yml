@@ -1064,6 +1064,12 @@ links:
       link: "https://zhazha120.cn/",
       avatar: "https://raw.githubusercontent.com/GuaiZai233/GuaiZaiBlog/refs/heads/main/themes/static/zhazha120.svg"
     }
+    - {
+      title: "LinFun_",
+      intro: "遇见更好的Fun",
+      link: "https://blog.lin-fun.com",
+      avatar: "https://images-r2.lin-fun.com/92dcd0d286189a611cf38ebe85e9df94.png"
+    }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
