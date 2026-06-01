@@ -1070,6 +1070,12 @@ links:
       link: "https://blog.lin-fun.com",
       avatar: "https://images-r2.lin-fun.com/92dcd0d286189a611cf38ebe85e9df94.png"
     }
+    - {
+      title: "GlassFoxowo's Notebook",
+      intro: "玻狸的笔记本，全是水，偶尔能找到一些技术文章。",
+      link: "https://note.glassfoxowo.com/",
+      avatar: "https://note.glassfoxowo.com/img/avatar.avif"
+    }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
