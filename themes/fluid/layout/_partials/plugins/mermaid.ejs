@@ -1,11 +1,92 @@
 <script>
   Fluid.utils.createScript('<%= url_join(theme.static_prefix.mermaid, 'mermaid.min.js') %>', function() {
-    mermaid.initialize(<%- JSON.stringify(theme.post.mermaid.options || {}) %>);
+    var baseOptions = <%- JSON.stringify(theme.post.mermaid.options || {}) %>;
+
+    function currentSchema() {
+      // 与 Fluid 的 color-schema.js 保持一致：优先读 data-user-color-scheme，
+      // 否则回落到系统 prefers-color-scheme。
+      var attr = document.documentElement.getAttribute('data-user-color-scheme');
+      if (attr === 'dark' || attr === 'light') return attr;
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) return 'dark';
+      return 'light';
+    }
+
+    function themeFor(schema) {
+      return schema === 'dark' ? 'dark' : (baseOptions.theme || 'default');
+    }
+
+    // 保存源码到 data-source，方便切换主题时重新渲染。
+    function stashSources() {
+      var nodes = document.querySelectorAll('.mermaid');
+      nodes.forEach(function(el) {
+        if (!el.hasAttribute('data-source')) {
+          el.setAttribute('data-source', el.textContent);
+        }
+      });
+    }
+
+    // 主题变化后，把已渲染的 SVG 还原成源码 + 清空 data-processed，让 mermaid 重跑。
+    function resetRendered() {
+      var nodes = document.querySelectorAll('.mermaid');
+      nodes.forEach(function(el) {
+        var src = el.getAttribute('data-source');
+        if (src) {
+          el.innerHTML = src;
+          el.removeAttribute('data-processed');
+        }
+      });
+    }
+
+    function renderAll(schema) {
+      var opts = Object.assign({}, baseOptions, { startOnLoad: false, theme: themeFor(schema) });
+      mermaid.initialize(opts);
+      // mermaid v10 推荐 run()；旧版 fallback 到 init()。
+      if (typeof mermaid.run === 'function') {
+        mermaid.run({ querySelector: '.mermaid' }).catch(function(e) { console.error('[mermaid]', e); });
+      } else if (typeof mermaid.init === 'function') {
+        mermaid.init(undefined, '.mermaid');
+      }
+    }
 
     Fluid.utils.listenDOMLoaded(function() {
+      stashSources();
+      renderAll(currentSchema());
+
+      // 监听手动切换（Fluid color-schema.js 会改根节点 data-user-color-scheme 属性）。
+      var last = currentSchema();
+      var observer = new MutationObserver(function() {
+        var now = currentSchema();
+        if (now !== last) {
+          last = now;
+          resetRendered();
+          renderAll(now);
+        }
+      });
+      observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-user-color-scheme'] });
+
+      // 监听系统主题变化（用户未手动指定时）。
+      if (window.matchMedia) {
+        var mql = window.matchMedia('(prefers-color-scheme: dark)');
+        var onChange = function() {
+          if (!document.documentElement.getAttribute('data-user-color-scheme')) {
+            var now = currentSchema();
+            if (now !== last) {
+              last = now;
+              resetRendered();
+              renderAll(now);
+            }
+          }
+        };
+        if (mql.addEventListener) mql.addEventListener('change', onChange);
+        else if (mql.addListener) mql.addListener(onChange);
+      }
+
+      // 兼容主题原本的刷新回调（例如 pjax）。
       Fluid.events.registerRefreshCallback(function() {
         if ('mermaid' in window) {
-          mermaid.init();
+          stashSources();
+          resetRendered();
+          renderAll(currentSchema());
         }
       });
     });
