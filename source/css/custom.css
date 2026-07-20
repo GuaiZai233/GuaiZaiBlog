@@ -92,3 +92,15 @@ html::before {
   max-width: 100%;          /* 不超过父容器 */
   line-height: 1.2;         /* 行距适当小一点，避免撑开 */
 }
+
+/*
+ * 修复代码块被挤成一行的问题
+ * 原因：主题自带的 markdown.css 里有 `.markdown-body code br { display: none }`，
+ * 但 Hexo + highlight.js 用 <br> 分隔代码行，被隐藏后所有行会挤到一起。
+ * 只对 hexo 生成的高亮代码块内的 <br> 做覆盖。
+ */
+.markdown-body figure.highlight code br,
+.markdown-body .highlight pre code br,
+.markdown-body pre code.hljs br {
+  display: initial !important;
+}
